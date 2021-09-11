@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+/* Route::get('/', function () {
     return view('welcome');
-});
+}); */
+
+Route::get('/', 'PostController@main')->name('home');
+Route::get('/articles', 'PostController@index')->name('posts.index');
+Route::get('/articles/{slug}', 'PostController@show')->name('posts.show');
+
