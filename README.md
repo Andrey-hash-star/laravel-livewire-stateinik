@@ -5,7 +5,7 @@
 3. Создать .env и скопировать туда информацию из env.example 
 4. Создать базу данных и прописать в .env соединение 
 5. Сгенерировать ключ: php artisan key:generate
-6. Произвести миграции: php artisane migrate
+6. Произвести миграции: php artisan migrate
 7. Запускаем сиды: php artisan db:seed
 7. Запустить сервер: php artisan serve
 8. В .env проставить APP_DEBUG=false, чтобы отключить Laravel Debugbar, если нужно
