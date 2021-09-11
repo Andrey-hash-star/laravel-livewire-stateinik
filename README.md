@@ -1,4 +1,4 @@
-## Форма обратной связи на Laravel.
+## Cайт - статейник на Laravel.
 
 1. Клонировать проект с GitHab: Git clone https://github.com/Andrey-hash-star/laravel-stateinik.git
 2. Загрузить зависимости через Composer: composer install
