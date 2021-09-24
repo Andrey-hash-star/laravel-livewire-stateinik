@@ -28,7 +28,7 @@ class FormPostController extends Component
     {
         $this->validate();
 
-        sleep(600);
+        // sleep(600);
 
         Commet::create([
             'title' => $this->title,
